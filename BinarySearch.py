@@ -40,3 +40,5 @@ print("From a list of integers 0 to 1000 we are looking for random integer:")
 print(searched)
 print("After running binary search the index number for this random integer is: ")
 print(binarySearch(Test_Sequence, searched))
+
+
