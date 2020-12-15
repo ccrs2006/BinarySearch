@@ -17,7 +17,10 @@ and showcase my steps during the project.
 * generate one unique single number randomly picked from 1 - 1200
 
 ### STEP 4.
-* run the binary search function the ranmly picked number against the list of 1000 ordered numbers and see if the number is available.
+* run the binary search function the randomly picked number against the list of 1000 ordered numbers and see if the number is available.
+
+### STEP5. 
+* The binary search will look at the middle element of the array of 1000 items. If the item is to big, it will eliminate the right half of the array and repeat. If it is too small, it will eliminate the left half of the array and repeat. Once the searched items is found from the sub-array size 0, the function stops and returns a result.
 
 ### Result
 * If the randomly picked number is found in the list, it returns the index where the number is located, if the number is nowhere in the list, then it returns "Not found"
